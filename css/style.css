@@ -76,3 +76,35 @@ body {
 .l-item a:hover {
   color: #915dff;
 }
+
+.l-footer {
+  color: #fff;
+  padding: 20px 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.l-footer__copyright {
+  max-width: 90%;
+  margin: auto;
+}
+
+.l-footer__copyright p {
+  font-size: 14px;
+}
+
+@media (max-width: 500px) {
+  .l-header__container,
+  .l-main__container {
+    text-align: center;
+  }
+
+  .l-item a {
+    text-decoration: underline;
+  }
+
+  .l-item::after {
+    display: none;
+  }
+}
